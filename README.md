@@ -80,17 +80,17 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 运行 `connect-tunnel.ps1`。
 如果要指定 Tunnel 客户端位置，运行：
 
-    ```powershell
-    .\connect-tunnel.ps1 -TunnelClient "D:\path\to\tunnel-client.exe" -CodexDataRoot "D:\path\to\codex-data"
-    ```
+```powershell
+.\connect-tunnel.ps1 -TunnelClient "D:\path\to\tunnel-client.exe" -CodexDataRoot "D:\path\to\codex-data"
+```
 
 通过 Tunnel 客户端的 doctor 配置诊断后，API key 会使用当前 Windows 用户的 DPAPI 加密保存，且只保存在你的电脑上。
 
 如果需要替换已经保存的 API key：
     
-    ```powershell
-    .\connect-tunnel.ps1 -ReplaceSavedKey -DoctorOnly
-    ```
+```powershell
+.\connect-tunnel.ps1 -ReplaceSavedKey -DoctorOnly
+```
 
 首次配置成功后，相关本机配置会保存在 `.runtime` 目录。
 `.runtime` 中包含本机路径、Tunnel ID、API Key和日志。
@@ -102,9 +102,10 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 - 后台守护进程
 如果 Tunnel 意外退出，守护进程会尝试自动恢复。
 需要停止时运行：
-    ```powershell
-    .\stop-work-background.ps1
-    ```
+
+```powershell
+.\stop-work-background.ps1
+```
 
 ---
 
