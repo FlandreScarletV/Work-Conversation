@@ -144,4 +144,4 @@ MIT License permission notice
 
 ## 📌 其他说明
 
-提交 Issue 或 Pull Request 前，请确保不包含 **.runtime**、不包含 **API key**、不包含 **Tunnel ID**、不包含**会话 JSONL**、不包含个人敏感信息、不包含其他用户的聊天记录、不提交未经授权的第三方代码或资源。
+提交 Issue 或 Pull Request 前，请确保不包含 **.runtime**、不包含 **API key**、不包含 **Tunnel ID**、不包含**会话 JSONL**、不包含**个人敏感信息**、不包含**其他用户的聊天记录**、不提交**未经授权的第三方代码**或**资源**。
