@@ -4,6 +4,8 @@
 ### 原工作会话如下
 <p align="center"><img width="824" alt="work" src="https://github.com/user-attachments/assets/f28b1357-b300-4a08-ac36-44da4b6bf097" /></p>
 
+---
+
 ## 🚀 安装和使用
 
 ### 1.💻 环境要求
@@ -52,10 +54,6 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
     - 读取上一个工作会话。
 如果存在多个名称相似的工作会话，Work Conversation 会先返回候选结果，让用户选择目标，而不会随意读取其中一个。
 
-
-
----
-
 <span id="tunnel"></span>
 
 ### 4.🚇 配置 Tunnel
@@ -85,7 +83,6 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
     ```powershell
     .\connect-tunnel.ps1 -TunnelClient "D:\path\to\tunnel-client.exe" -CodexDataRoot "D:\path\to\codex-data"
     ```
----
 
 通过 Tunnel 客户端的 doctor 配置诊断后，API key 会使用当前 Windows 用户的 DPAPI 加密保存，且只保存在你的电脑上。
 
@@ -94,7 +91,6 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
     ```powershell
     .\connect-tunnel.ps1 -ReplaceSavedKey -DoctorOnly
     ```
----
 
 首次配置成功后，相关本机配置会保存在 `.runtime` 目录。
 `.runtime` 中包含本机路径、Tunnel ID、API Key和日志。
@@ -140,6 +136,8 @@ MIT License permission notice
 完整许可条款请参阅仓库中的：
 
 [📄 LICENSE](LICENSE)
+
+---
 
 ## 📌 其他说明
 
