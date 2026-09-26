@@ -23,7 +23,7 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 
 ### 3.🔗 连接 ChatGPT
 
-**✅（推荐）✅** 在 ChatGPT / Codex 桌面端中进入 **插件**，点击**添加插件市场**，直接连接本页仓库
+**✅（推荐）✅** 在 ChatGPT / Codex 桌面端中进入**插件**页面，点击**添加插件市场**，直接连接本页仓库
 <p align="center"><img width="751" alt="image" src="https://github.com/user-attachments/assets/0a2fa86f-d340-4648-bff1-55d528283012" /></p>
 
 ```
