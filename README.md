@@ -140,7 +140,7 @@ MIT License permission notice
 ```
 完整许可条款请参阅仓库中的：
 
-`LICENSE`
+[📄 LICENSE](LICENSE)
 
 ## 📌 其他说明
 
