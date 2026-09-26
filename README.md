@@ -1,7 +1,3 @@
-## 前言
-
-主要面向 Windows 用户。
-
 ## 🎬 测试视频
 <img width="824" alt="test" src="https://github.com/user-attachments/assets/4b83a60d-9427-40ab-8338-37b5de2fd4bf" />
 
@@ -9,6 +5,8 @@
 ## 🚀 安装和使用
 
 ### 1.💻 环境要求
+
+主要面向 Windows 用户。
 
 安装 **[Node.js 22](https://nodejs.org/zh-cn)** 或更高版本。
 安装 **[PowerShell](https://learn.microsoft.com/zh-cn/powershell/scripting/install/install-powershell?view=powershell-7.6)**。
