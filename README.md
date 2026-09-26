@@ -80,7 +80,8 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 然后打开👉[openai开发者平台](https://platform.openai.com/settings/organization/tunnels)获取tunnel ID，先点击右上角的**Download tunnel-client**，然后点击**create tunnel**创建tunnel ID。
 <img width="1967" height="330" alt="image" src="https://github.com/user-attachments/assets/081ce840-06e6-46f4-b848-14b03e4102d5" />
 
-获取👉[[api key]](https://platform.openai.com/api-keys)，点击**API Keys**页面 → **Create new secret key** → 选择**Owned by You** → 填入**名字** → Project选择**Default Project**，没有Project就先创建Project → 有效期自己决定 → Permission选**Read only** → **Create new secret key**。
+获取👉[api key](https://platform.openai.com/api-keys)，点击**API Keys**页面 → **Create new secret key** → 选择**Owned by You** → 填入**名字** → Project选择**Default Project**，没有Project就先创建Project → 有效期自己决定 → Permission选**Read only** → **Create new secret key**。
+<img width="1973" alt="image" src="https://github.com/user-attachments/assets/20398bd7-9801-49c9-bd04-89cb9eef0709" />
 
 运行 `connect-tunnel.ps1`。
 如果要指定 Tunnel 客户端位置，运行：
