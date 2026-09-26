@@ -64,7 +64,7 @@ https://github.com/FlandreScarletV/Work-Conversation
 ChatGPT 不能直接连接运行在用户电脑上的本地 MCP Server，所以运行 `tunnel-client` 需要一个可用于 Secure MCP Tunnel 的运行时 API key。
 
 首先打开[ChatGPT 网页版](https://chatgpt.com/)，点击**左下角用户** → **设置** → **账户安全与登录** → **开发人员模式**。
-<img width="1967" height="404" alt="image" src="https://github.com/user-attachments/assets/8d80b1e2-6044-4464-8939-f1f15f1bd95c" />
+<img width="808" height="404" alt="image" src="https://github.com/user-attachments/assets/8d80b1e2-6044-4464-8939-f1f15f1bd95c" />
 
 然后打开[openai开发者平台](https://platform.openai.com/settings/organization/tunnels)获取tunnel ID，先点击右上角的**Download tunnel-client**，然后点击**create tunnel**创建tunnel ID。
 <img width="1967" height="330" alt="image" src="https://github.com/user-attachments/assets/081ce840-06e6-46f4-b848-14b03e4102d5" />
