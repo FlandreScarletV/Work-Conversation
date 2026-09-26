@@ -23,7 +23,9 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 
 ### 3.🔗 连接 ChatGPT
 
-**✅（推荐）✅** 在 ChatGPT / Codex 桌面端中进入 **插件**，点击**添加插件市场**，直接连接本页仓库`https://github.com/FlandreScarletV/Work-Conversation`即可。
+**✅（推荐）✅** 在 ChatGPT / Codex 桌面端中进入 **插件**，点击**添加插件市场**，直接连接本页仓库
+```https://github.com/FlandreScarletV/Work-Conversation```
+即可。
 
 另一种方式就是点击**创建MCP应用**，但是这种方式要打开OpenAI的开发者模式，一般不推荐这种方式。tunnel ID获取点击[这里](#tunnel)。名称描述随便，连接方式选择 `Tunnel`，填写`tunnel_id`，身份验证选**无需身份验证**，我已了解，创建。
 
