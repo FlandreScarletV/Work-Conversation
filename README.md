@@ -15,6 +15,7 @@
 `会话`
 `archived_sessions`
 `session_index.jsonl`
+
 Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 
 ### 3.🔗 连接 ChatGPT
