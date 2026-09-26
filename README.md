@@ -120,7 +120,7 @@ ChatGPT 不能直接连接运行在用户电脑上的本地 MCP Server，所以�
 Work Conversation 是一个第三方开源项目。不是 OpenAI 官方产品。
 项目根据 MIT License 发布。
 ```
-Copyright (c) 2026 Work Conversation contributors
+Copyright (c) 2026 FlandreScarletV
 ```
 MIT License 允许：使用、复制、修改、合并、发布、分发、再许可、商业使用。
 
