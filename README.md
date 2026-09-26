@@ -1,6 +1,8 @@
 ## 🎬 测试视频
 <p align="center"><img width="824" alt="test" src="https://github.com/user-attachments/assets/4b83a60d-9427-40ab-8338-37b5de2fd4bf" /></p>
 
+### 原工作会话如下
+<p align="center"><img width="824" alt="work" src="https://github.com/user-attachments/assets/f28b1357-b300-4a08-ac36-44da4b6bf097" /></p>
 
 ## 🚀 安装和使用
 
@@ -52,7 +54,7 @@ https://github.com/FlandreScarletV/Work-Conversation.git
     - 继续读取这个工作会话。
     - 读取上一个工作会话。
 如果存在多个名称相似的工作会话，Work Conversation 会先返回候选结果，让用户选择目标，而不会随意读取其中一个。
-<p align="center"><img width="824" alt="work" src="https://github.com/user-attachments/assets/f28b1357-b300-4a08-ac36-44da4b6bf097" /></p>
+
 
 
 ---
