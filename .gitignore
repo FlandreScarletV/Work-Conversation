@@ -1,0 +1,14 @@
+.runtime/
+node_modules/
+*.log
+*.evtx
+*.dpapi
+*.yaml
+*.yml
+.app.json
+.env
+.env.*
+session_index.jsonl
+sessions/
+archived_sessions/
+
