@@ -2,14 +2,14 @@
 
 面向 Windows 用户。
 
-## 安装和使用
+## 🚀 安装和使用
 
-### 1. 环境要求
+### 1.💻 环境要求
 
 安装 **[Node.js 22](https://nodejs.org/zh-cn)** 或更高版本。
 安装 **[PowerShell](https://learn.microsoft.com/zh-cn/powershell/scripting/install/install-powershell?view=powershell-7.6)**。
 
-### 2. 指定 Codex 数据目录
+### 2.📁 指定 Codex 数据目录
 
 指定自己的 `CODEX_HOME`。`CODEX_HOME` 就是你的 Codex 数据根目录。 通常需要包含：
 `会话`
@@ -17,9 +17,9 @@
 `session_index.jsonl`
 Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 
-### 3. 连接 ChatGPT
+### 3.🔗 连接 ChatGPT
 
-**（推荐）** 在 ChatGPT / Codex 桌面端中进入 **插件**，点击**添加插件市场**，直接连接本页仓库`https://github.com/FlandreScarletV/Work-Conversation`即可。
+**✅（推荐）✅** 在 ChatGPT / Codex 桌面端中进入 **插件**，点击**添加插件市场**，直接连接本页仓库`https://github.com/FlandreScarletV/Work-Conversation`即可。
 
 另一种方式就是点击**创建MCP应用**，但是这种方式要打开OpenAI的开发者模式，一般不推荐这种方式。tunnel ID获取点击[这里](#tunnel)。名称描述随便，连接方式选择 `Tunnel`，填写`tunnel_id`，身份验证选**无需身份验证**，我已了解，创建。
 
@@ -40,9 +40,9 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 
 <span id="tunnel"></span>
 
-### 4. 配置 Tunnel
+### 4.🚇 配置 Tunnel
 
-> [!WARNING]
+> ⚠️⚠️⚠️[!WARNING]⚠️⚠️⚠️
 > 请注意！！！请注意！！！请注意！！！
 > 通过网页端或远程设备访问本机工作会话时，需要通过 ChatGPT 的开发者模式 / 自定义 MCP App 接入；支持本地插件市场的桌面客户端可直接使用本地插件。
 > 开发者模式连接未经验证或不可信的 MCP Server / App 会增加安全风险，包括提示词注入、敏感数据泄露以及意外调用工具等。
@@ -85,7 +85,7 @@ ChatGPT 不能直接连接运行在用户电脑上的本地 MCP Server，所以�
 
 
 
-## 功能列表
+## 🛠️ 功能列表
 
 | 工具 | 作用 |
 | --- | --- |
@@ -96,7 +96,7 @@ ChatGPT 不能直接连接运行在用户电脑上的本地 MCP Server，所以�
 
 ---
 
-## 开源说明
+## ⚖️ 开源说明
 
 Work Conversation 是一个第三方开源项目。不是 OpenAI 官方产品。
 项目根据 MIT License 发布。
@@ -114,6 +114,6 @@ MIT License permission notice
 
 `LICENSE`
 
-## 其他说明
+## 📌 其他说明
 
 提交 Issue 或 Pull Request 前，请确保不包含 **.runtime**、不包含 **API key**、不包含 **Tunnel ID**、不包含**会话 JSONL**、不包含个人敏感信息、不包含其他用户的聊天记录、不提交未经授权的第三方代码或资源。
