@@ -159,7 +159,7 @@ const readOnly = { readOnlyHint: true, destructiveHint: false };
 const tools = [
   { name: 'list_work_threads', description: 'List recent local Codex tasks by title and date.',
     inputSchema: { type: 'object', properties: { limit: { type: 'integer', minimum: 1, maximum: 50 } }, additionalProperties: false }, annotations: readOnly },
-  { name: 'search_work_threads', description: 'Find local Codex tasks by approximate title. Natural requests such as “读取 K80 Pro 工作会话” match titles such as “分析K80 Pro Root防砖”. If needsSelection is true, show the candidate titles and dates and ask the user which task to read before calling read_work_thread.',
+  { name: 'search_work_threads', description: 'Find local Codex tasks by approximate title. Natural requests containing a topic keyword can match titles containing that keyword. If needsSelection is true, show the candidate titles and dates and ask the user which task to read before calling read_work_thread.',
     inputSchema: { type: 'object', properties: { query: { type: 'string', minLength: 1 }, limit: { type: 'integer', minimum: 1, maximum: 50 } }, required: ['query'], additionalProperties: false }, annotations: readOnly },
   { name: 'search_work_messages', description: 'Find local Codex tasks containing a phrase in user or assistant conversation text; returns short excerpts.',
     inputSchema: { type: 'object', properties: { query: { type: 'string', minLength: 2 }, limit: { type: 'integer', minimum: 1, maximum: 20 } }, required: ['query'], additionalProperties: false }, annotations: readOnly },
