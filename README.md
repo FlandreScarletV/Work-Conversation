@@ -37,6 +37,7 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 如果存在多个名称相似的工作会话，Work Conversation 会先返回候选结果，让用户选择目标，而不会随意读取其中一个。
 
 ---
+
 <span id="tunnel"></span>
 
 4. ### 配置 Tunnel
@@ -52,7 +53,7 @@ ChatGPT 不能直接连接运行在用户电脑上的本地 MCP Server，所以�
 
 然后打开[\[openai开发者tunnel\]](https://platform.openai.com/settings/organization/tunnels)获取tunnel ID，右上角先点击下载**tunnel-client**，点击**create tunnel**。
 
-获取[openai api key](https://platform.openai.com/)，点击**API Keys**页面 → **Create new secret key** → 选择**Owned by You** → 填入**Name** → Project选择**Default Project**，没有Project就左上角创建Project → 有效期自己决定 → Permission选**Read only** → **Create new secret key**。
+获取[openai api key](https://platform.openai.com/)，点击**API Keys**页面 → **Create new secret key** → 选择**Owned by You** → 填入**名字** → Project选择**Default Project**，没有Project就左上角创建Project → 有效期自己决定 → Permission选**Read only** → **Create new secret key**。
 
 运行 `connect-tunnel.ps1`。
 如果要指定 Tunnel 客户端位置，运行：
