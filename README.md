@@ -34,7 +34,7 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 连接成功后，建议先进行一次简单测试，例如：
 
 ```
-@Work Conversation 列出我最近的工作会话。确认 ChatGPT 能返回结果。
+@Work Conversation 列出我最近的工作会话。如果没读取到则直接回复读取失败或无法读取。
 ```
 
 
