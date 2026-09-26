@@ -53,13 +53,15 @@ ChatGPT 不能直接连接运行在用户电脑上的本地 MCP Server，所以�
 
 然后打开[openai开发者平台](https://platform.openai.com/settings/organization/tunnels)获取tunnel ID，右上角先点击下载**tunnel-client**，点击**create tunnel**。
 
-获取[openai api key](https://platform.openai.com/)，点击**API Keys**页面 → **Create new secret key** → 选择**Owned by You** → 填入**Name** → Project选择**Default Project**，没有Project就先创建Project → 有效期自己决定 → Permission选**Read only** → **Create new secret key**。
+获取[openai api key](https://platform.openai.com/)，点击**API Keys**页面 → **Create new secret key** → 选择**Owned by You** → 填入**名字** → Project选择**Default Project**，没有Project就先创建Project → 有效期自己决定 → Permission选**Read only** → **Create new secret key**。
 
 运行 `connect-tunnel.ps1`。
-如果要指定 Tunnel 客户端位置，运行：
+如果要指定 Tunnel 客户端位置，运行
+
     ```powershell
     .\connect-tunnel.ps1 -TunnelClient "D:\path\to\tunnel-client.exe" -CodexDataRoot "D:\path\to\codex-data"
     ```
+    
 通过 Tunnel 客户端的 doctor 配置诊断后，API key 会使用当前 Windows 用户的 DPAPI 加密保存，且只保存在你的电脑上。
 
 如果需要替换已经保存的 API key：
