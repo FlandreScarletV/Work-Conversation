@@ -10,7 +10,7 @@
     "displayName": "Work Conversation",
     "shortDescription": "按需查找并读取本机 Codex 任务会话",
     "longDescription": "通过只读工具查找本机 Codex 任务，并分页读取用户与助手的会话内容。",
-    "developerName": "Work Conversation contributors",
+    "developerName": "FlandreScarletV",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": ["查找最近的 Codex 任务并读取相关会话"]
