@@ -79,14 +79,20 @@ ChatGPT 不能直接连接运行在用户电脑上的本地 MCP Server，所以�
 运行 `connect-tunnel.ps1`。
 如果要指定 Tunnel 客户端位置，运行：
 
-    ```.\connect-tunnel.ps1 -TunnelClient "D:\path\to\tunnel-client.exe" -CodexDataRoot "D:\path\to\codex-data" ```
-    
+    ```powershell
+    .\connect-tunnel.ps1 -TunnelClient "D:\path\to\tunnel-client.exe" -CodexDataRoot "D:\path\to\codex-data"
+    ```
+---
+
 通过 Tunnel 客户端的 doctor 配置诊断后，API key 会使用当前 Windows 用户的 DPAPI 加密保存，且只保存在你的电脑上。
 
 如果需要替换已经保存的 API key：
     
-    ```.\connect-tunnel.ps1 -ReplaceSavedKey -DoctorOnly```
-    
+    ```powershell
+    .\connect-tunnel.ps1 -ReplaceSavedKey -DoctorOnly
+    ```
+---
+
 首次配置成功后，相关本机配置会保存在 `.runtime` 目录。
 `.runtime` 中包含本机路径、Tunnel ID、API Key和日志。
 配置完成tunnel后，运行 `start-work-background.ps1`。
