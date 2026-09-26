@@ -72,7 +72,7 @@ ChatGPT 不能直接连接运行在用户电脑上的本地 MCP Server，所以�
 运行 `connect-tunnel.ps1`。
 如果要指定 Tunnel 客户端位置，运行
 
-    ```powershell
+    ```
     .\connect-tunnel.ps1 -TunnelClient "D:\path\to\tunnel-client.exe" -CodexDataRoot "D:\path\to\codex-data"
     ```
     
