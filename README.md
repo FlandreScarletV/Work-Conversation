@@ -57,19 +57,23 @@ https://github.com/FlandreScarletV/Work-Conversation
 ### 4.🚇 配置 Tunnel
 
 > ⚠️⚠️⚠️[!WARNING]⚠️⚠️⚠️
+> 
 > 请注意！！！请注意！！！请注意！！！
+> 
 > 通过网页端或远程设备访问本机工作会话时，需要通过 ChatGPT 的开发者模式 / 自定义 MCP App 接入；支持本地插件市场的桌面客户端可直接使用本地插件。
 > 开发者模式连接未经验证或不可信的 MCP Server / App 会增加安全风险，包括提示词注入、敏感数据泄露以及意外调用工具等。
 > 使用本项目产生的账号、数据、安全或配置风险由使用者自行判断和承担。
 ChatGPT 不能直接连接运行在用户电脑上的本地 MCP Server，所以运行 `tunnel-client` 需要一个可用于 Secure MCP Tunnel 的运行时 API key。
 
-首先打开[ChatGPT 网页版](https://chatgpt.com/)，点击**左下角用户** → **设置** → **账户安全与登录** → **开发人员模式**。
-<img width="909" height="404" alt="image" src="https://github.com/user-attachments/assets/8d80b1e2-6044-4464-8939-f1f15f1bd95c" />
+首先打开👉[ChatGPT 网页版](https://chatgpt.com/)，点击**左下角用户** → **设置** → **账户安全与登录** → **开发人员模式**。
+<p align="center">
+  <img width="850" alt="image" src="https://github.com/user-attachments/assets/7eba4e97-036c-46eb-aad8-e9cb6d340623" />
+</p>
 
-然后打开[openai开发者平台](https://platform.openai.com/settings/organization/tunnels)获取tunnel ID，先点击右上角的**Download tunnel-client**，然后点击**create tunnel**创建tunnel ID。
+然后打开👉[openai开发者平台](https://platform.openai.com/settings/organization/tunnels)获取tunnel ID，先点击右上角的**Download tunnel-client**，然后点击**create tunnel**创建tunnel ID。
 <img width="1967" height="330" alt="image" src="https://github.com/user-attachments/assets/081ce840-06e6-46f4-b848-14b03e4102d5" />
 
-获取[openai api key](https://platform.openai.com/)，点击**API Keys**页面 → **Create new secret key** → 选择**Owned by You** → 填入**名字** → Project选择**Default Project**，没有Project就先创建Project → 有效期自己决定 → Permission选**Read only** → **Create new secret key**。
+获取👉[openai api key](https://platform.openai.com/)，点击**API Keys**页面 → **Create new secret key** → 选择**Owned by You** → 填入**名字** → Project选择**Default Project**，没有Project就先创建Project → 有效期自己决定 → Permission选**Read only** → **Create new secret key**。
 
 运行 `connect-tunnel.ps1`。
 如果要指定 Tunnel 客户端位置，运行
