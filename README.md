@@ -32,7 +32,7 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 
 <img width="207" alt="image" src="https://github.com/user-attachments/assets/3d585320-ab8f-4983-a504-09a53f2b801b" />
 
-名称描述随便，连接方式选择**隧道**，填写`tunnel_id`，身份验证选**无需身份验证**，我已了解，创建。
+名称描述随便，连接方式选择**隧道**，填写`tunnel_id`，身份验证选**无需身份验证**，勾上**我已了解并继续**，创建。
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/a5d1ff44-acbb-46af-9fcb-242546b4c73e" />
 
 连接成功后，建议先进行一次简单测试，例如：
