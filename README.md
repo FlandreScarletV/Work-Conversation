@@ -103,9 +103,6 @@ ChatGPT 不能直接连接运行在用户电脑上的本地 MCP Server，所以�
     ```
 
 ---
-<span id="connect-chatgpt"></span>
-
-
 
 ## 🛠️ 功能列表
 
