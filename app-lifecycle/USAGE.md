@@ -16,7 +16,7 @@
 & .\app-lifecycle\install.ps1 -AdditionalAppPaths 'D:\Apps\Codex\ChatGPT.exe'
 ```
 
-**每次 App 更新导致安装路径变化后，重新运行安装命令。**旧版本的任务只匹配安装时发现的路径。该脚本不会随 Windows 登录启动常驻轮询进程，也不会把 API key、Tunnel ID 或用户路径写入仓库源码。
+**每次 App 更新导致安装路径变化后，重新运行安装命令。**旧版本的任务只匹配安装时发现的路径。
 
 查看任务状态：
 
@@ -33,4 +33,4 @@ Unregister-ScheduledTask -TaskName WorkConversationTunnelEvent -Confirm:$false
 
 卸载任务不会自动恢复 Windows 的审计策略。安装前的审计策略备份位于 `.runtime/data/audit-policy-before-*.csv`，应先确认电脑上其他程序是否也依赖进程审计，再决定是否恢复。
 
-已知限制：网页端使用本机 Tunnel 时仍需要本机 Codex App 保持运行；本地就绪检查通过也不能代替网页端实际工具调用验收。
+网页端要使用该服务需要本机 Codex App 的Tunnel保持运行。
