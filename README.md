@@ -28,6 +28,7 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 ### 3.🔗 连接 ChatGPT
 
 首先，点击**插件**页面的**创建MCP应用**选项，但是这种方式要打开OpenAI的开发者模式。tunnel ID获取点击[这里](#tunnel)。名称描述随便，连接方式选择 `Tunnel`，填写`tunnel_id`，身份验证选**无需身份验证**，我已了解，创建。
+
 <img width="207" alt="image" src="https://github.com/user-attachments/assets/3d585320-ab8f-4983-a504-09a53f2b801b" />
 
 连接成功后，建议先进行一次简单测试，例如：
