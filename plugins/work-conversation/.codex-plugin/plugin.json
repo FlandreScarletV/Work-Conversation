@@ -1,9 +1,9 @@
 {
   "name": "work-conversation",
   "version": "0.1.0",
-  "description": "Read local Work and Codex task conversations on request",
+  "description": "读取本地工作会话",
   "author": {
-    "name": "Work Conversation contributors"
+    "name": "FlandreScarletV"
   },
   "skills": "./skills/",
   "interface": {
