@@ -27,7 +27,7 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 <p align="center"><img width="751" alt="image" src="https://github.com/user-attachments/assets/0a2fa86f-d340-4648-bff1-55d528283012" /></p>
 
 ```
-https://github.com/FlandreScarletV/Work-Conversation
+https://github.com/FlandreScarletV/Work-Conversation.git
 ```
 
 即可。
