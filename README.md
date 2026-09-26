@@ -4,12 +4,12 @@
 
 ## 安装和使用
 
-1. ### 环境要求
+### 1. 环境要求
 
 安装 **[Node.js 22](https://nodejs.org/zh-cn)** 或更高版本。
 安装 **[PowerShell](https://learn.microsoft.com/zh-cn/powershell/scripting/install/install-powershell?view=powershell-7.6)**。
 
-2. ### 指定 Codex 数据目录
+### 2. 指定 Codex 数据目录
 
 指定自己的 `CODEX_HOME`。`CODEX_HOME` 就是你的 Codex 数据根目录。 通常需要包含：
 `会话`
@@ -17,7 +17,7 @@
 `session_index.jsonl`
 Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 
-3. ### 连接 ChatGPT
+### 3. 连接 ChatGPT
 
 **（推荐）**在 ChatGPT 中进入**插件**，点击**添加插件市场**，直接连接本页仓库`https://github.com/FlandreScarletV/Work-Conversation`即可。
 
@@ -40,7 +40,7 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 
 <span id="tunnel"></span>
 
-4. ### 配置 Tunnel
+### 4. 配置 Tunnel
 
 > [!WARNING]
 > 请注意！！！请注意！！！请注意！！！
