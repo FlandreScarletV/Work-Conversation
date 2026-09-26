@@ -25,7 +25,9 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 
 **✅（推荐）✅** 在 ChatGPT / Codex 桌面端中进入 **插件**，点击**添加插件市场**，直接连接本页仓库
 
-```https://github.com/FlandreScarletV/Work-Conversation```
+```
+https://github.com/FlandreScarletV/Work-Conversation
+```
 
 即可。
 
@@ -33,7 +35,9 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 
 连接成功后，建议先进行一次简单测试，例如：
 
-```@Work Conversation 列出我最近的工作会话。确认 ChatGPT 能返回结果。```
+```
+@Work Conversation 列出我最近的工作会话。确认 ChatGPT 能返回结果。
+```
 
 
 之后就不用命令行@了，可直接使用自然语言，ChatGPT 会根据请求调用相应工具。
