@@ -2,8 +2,6 @@
 
 面向 Windows 用户。
 
-插件本体只保存在 `plugins/work-conversation/`；仓库根目录的 PowerShell 脚本用于可选的 Tunnel 接入，并调用同一份 `plugins/work-conversation/server.mjs`。发布时无需再同步两份服务源码。
-
 ## 安装和使用
 
 1. ### 环境要求
@@ -14,7 +12,7 @@
 2. ### 指定 Codex 数据目录
 
 指定自己的 `CODEX_HOME`。`CODEX_HOME` 就是你的 Codex 数据根目录。 通常需要包含：
-`sessions`
+`会话`
 `archived_sessions`
 `session_index.jsonl`
 Work Conversation 会从这些数据中查找、搜索和读取工作会话。
