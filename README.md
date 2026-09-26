@@ -30,8 +30,9 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
 
 首先，点击**插件**页面的**创建MCP应用**选项，但是这种方式要打开OpenAI的开发者模式。tunnel ID获取点击[这里](#tunnel)。
 
-<img width="207" alt="image" src="https://github.com/user-attachments/assets/3d585320-ab8f-4983-a504-09a53f2b801b" /><img width="747" alt="image" src="https://github.com/user-attachments/assets/a5d1ff44-acbb-46af-9fcb-242546b4c73e" />
+<img width="207" alt="image" src="https://github.com/user-attachments/assets/3d585320-ab8f-4983-a504-09a53f2b801b" />
 
+<p align="center"><img width="747" alt="image" src="https://github.com/user-attachments/assets/a5d1ff44-acbb-46af-9fcb-242546b4c73e" /></p>
 
 名称描述随便，连接方式选择 `Tunnel`，填写`tunnel_id`，身份验证选**无需身份验证**，我已了解，创建。
 
