@@ -2,6 +2,16 @@
 
 面向 Windows 用户。
 
+## 🎬 使用演示
+
+### 演示视频 1：基础流程
+
+[▶️ 点击查看视频（Assets/Test.mp4）](./Assets/Test.mp4)
+
+### 演示视频 2：补充流程
+
+[▶️ 点击查看视频（Assets/Test01.mp4）](./Assets/Test01.mp4)
+
 ## 🚀 安装和使用
 
 ### 1.💻 环境要求
