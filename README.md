@@ -65,7 +65,7 @@ ChatGPT 不能直接连接运行在用户电脑上的本地 MCP Server，所以�
 
 首先打开[ChatGPT 网页版](https://chatgpt.com/)，点击**左下角用户** → **设置** → **账户安全与登录** → **开发人员模式**。
 
-然后打开[openai开发者平台](https://platform.openai.com/settings/organization/tunnels)获取tunnel ID，右上角先点击下载**tunnel-client**，点击**create tunnel**。
+然后打开[openai开发者平台](https://platform.openai.com/settings/organization/tunnels)获取tunnel ID，先点击右上角的**Download tunnel-client**，然后点击**create tunnel**创建tunnel ID。
 <img width="1967" height="330" alt="image" src="https://github.com/user-attachments/assets/081ce840-06e6-46f4-b848-14b03e4102d5" />
 
 获取[openai api key](https://platform.openai.com/)，点击**API Keys**页面 → **Create new secret key** → 选择**Owned by You** → 填入**名字** → Project选择**Default Project**，没有Project就先创建Project → 有效期自己决定 → Permission选**Read only** → **Create new secret key**。
