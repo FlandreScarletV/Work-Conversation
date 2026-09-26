@@ -11,6 +11,7 @@
 主要面向 Windows 用户。
 
 安装 **[Node.js 22](https://nodejs.org/zh-cn)** 或更高版本。
+
 安装 **[PowerShell](https://learn.microsoft.com/zh-cn/powershell/scripting/install/install-powershell?view=powershell-7.6)**。
 
 ### 2.📁 指定 Codex 数据目录
