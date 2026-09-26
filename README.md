@@ -12,8 +12,11 @@
 ### 2.📁 指定 Codex 数据目录
 
 指定自己的 `CODEX_HOME`。`CODEX_HOME` 就是你的 Codex 数据根目录。 通常需要包含：
+
 `会话`
+
 `archived_sessions`
+
 `session_index.jsonl`
 
 Work Conversation 会从这些数据中查找、搜索和读取工作会话。
