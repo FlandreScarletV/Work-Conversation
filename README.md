@@ -108,14 +108,14 @@ ChatGPT 不能直接连接运行在用户电脑上的本地 MCP Server，所以�
 
 
 ## 🛠️ 功能列表
-<div align="center">
+
 | 工具 | 作用 |
-| :---: | :---: |
+| --- | --- |
 | `list_work_threads`| 列出最近任务及标题、日期、任务 ID、归档状态 |
 | `search_work_threads`| 用近似标题查找；多个结果时先让用户选择 |
 | `read_work_thread`| 按任务 ID 分页读取，返回 `nextCursor`（下一页位置） |
 | `search_work_messages`| 按短语搜索用户和助手的可见消息 |
-</div>
+
 ---
 
 ## ⚖️ 开源说明
