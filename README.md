@@ -75,7 +75,7 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
   <img width="850" alt="image" src="https://github.com/user-attachments/assets/7eba4e97-036c-46eb-aad8-e9cb6d340623" />
 </p>
 
-然后打开👉[openai开发者平台](https://platform.openai.com/settings/organization/tunnels)获取tunnel ID，先点击右上角的**Download tunnel-client**，然后点击**Create tunnel**创建`tunnel ID`。
+然后打开👉[openai开发者平台](https://platform.openai.com/settings/organization/tunnels)获取`tunnel ID`，先点击右上角的**Download tunnel-client**，然后点击**Create tunnel**创建`tunnel ID`。
 <img width="1967" height="330" alt="image" src="https://github.com/user-attachments/assets/081ce840-06e6-46f4-b848-14b03e4102d5" />
 
 获取👉[api key](https://platform.openai.com/api-keys)，点击**API Keys**页面 → **Create new secret key** → 选择**Owned by You** → 填入**名字** → Project选择**Default Project**，没有Project就先创建Project → 有效期自己决定 → Permission选**Read only** → **Create new secret key**。
