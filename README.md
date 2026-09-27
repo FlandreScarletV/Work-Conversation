@@ -53,6 +53,8 @@ Work Conversation 会从这些数据中查找、搜索和读取工作会话。
     - 继续读取这个工作会话。
     - 读取上一个工作会话。
 如果存在多个名称相似的工作会话，Work Conversation 会先返回候选结果，让用户选择目标，而不会随意读取其中一个。
+<img width="948" alt="{A2CD505E-57A9-44C9-B0F0-CD2925418C1E}" src="https://github.com/user-attachments/assets/2765e73f-423e-4f49-9d21-4ab41c1cfc7c" />
+
 
 <span id="tunnel"></span>
 
