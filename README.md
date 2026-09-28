@@ -16,6 +16,8 @@
 
 安装 **[PowerShell](https://learn.microsoft.com/zh-cn/powershell/scripting/install/install-powershell?view=powershell-7.6)**。
 
+把仓库下载下来，然后都在仓库目录下运行。
+
 ### 2.📁 指定 Codex 数据目录
 
 指定自己的 `CODEX_HOME`。`CODEX_HOME` 就是你的 Codex 数据根目录。 通常需要包含：
